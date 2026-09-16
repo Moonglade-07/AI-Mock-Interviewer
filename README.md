@@ -1,8 +1,8 @@
-# 🤖 AI Interview Platform
+# AI Interview Platform
 
 A full-stack AI-powered interview platform built with React, Node.js, Express, MongoDB, and Google Gemini AI.
 
-## 🚀 Features
+## Features
 - **AI-Generated Questions** — Gemini AI creates tailored questions per role & difficulty
 - **Real-time Evaluation** — AI scores each answer (0–10) with instant feedback
 - **Timer per Question** — 2-minute countdown with voice warning indicators
@@ -11,7 +11,7 @@ A full-stack AI-powered interview platform built with React, Node.js, Express, M
 - **Rich Dashboard** — Stats, history, and quick-start shortcuts
 - **JWT Authentication** — Secure login/register with bcrypt password hashing
 
-## 🛠️ Tech Stack
+## Tech Stack
 | Layer | Tech |
 |---|---|
 | Frontend | React 18 + Vite + Tailwind CSS v3 |
@@ -21,14 +21,14 @@ A full-stack AI-powered interview platform built with React, Node.js, Express, M
 | Auth | JWT + bcryptjs |
 | Real-time | Socket.io |
 
-## 📁 Folder Structure
+## Folder Structure
 ```
 ai-interview/
 ├── client/         # React Frontend (Vite + Tailwind)
 └── server/         # Node.js Backend (Express + MongoDB)
 ```
 
-## ⚡ Setup & Run
+## Setup & Run
 
 ### Prerequisites
 - Node.js v18+
@@ -69,7 +69,7 @@ npm run dev
 ### 4. Open App
 Visit: http://localhost:5173
 
-## 🗄️ MongoDB Compass
+## MongoDB Compass
 Connect with: `mongodb://localhost:27017`
 Database: `ai-interview`
 Collections: `users`, `interviews`, `reports`
